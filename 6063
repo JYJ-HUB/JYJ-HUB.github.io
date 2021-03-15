@@ -1,17 +1,24 @@
-int main(int argc, char const *argv[])
-{
-	string myString;
+Header Formats
+Header1
+Header2
+Blockquotes
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
 
-	cout << "input a string: ";
-	getline(cin, myString);
-	int length = myString.length();
-	
-	char charArray = new char * [length];
+Lists
+orderd lists
+one
+two
+three
+unorderd lists
+Apple
+Banana
+Plum
+Links
+This is an example link.
 
-	charArray = myString;
-	for(int i = 0; i < length; ++i){
-		cout << charArray[i] << " ";
-	}
-	
-	return 0;
-}
+Combinations
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+
+Apple
+Banana
+Plum
