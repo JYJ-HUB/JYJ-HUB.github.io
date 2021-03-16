@@ -1,85 +1,234 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="./resume.css" />
-  </head>
-  <body>
-    <div class="content">
-      <div class="header">
-        <div class="header-information">
-          <div class="name">윤시훈</div>
-          <div class="english-name">Nate Yoon</div>
-          <div class="details">
-            <div class="detail address">
-              <img class="address-emoji" src="https://cdn.pixabay.com/photo/2020/04/29/16/51/navigation-5109688_1280.png">
-              <span>서울 강남구</span>
-            </div>
-            <div class="detail email">
-              <img class="email-emoji" src="https://cdn.pixabay.com/photo/2016/04/16/10/32/icon-1332774_1280.png">
-              <span>syoon2**@gmail.com</span>
-            </div>
-            <div class="detail telephone-number">
-              <img class="telephone-number-emoji" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/mobile-1976104_1280.png">
-              <span>010-55*1-7**8</span>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+</head>
+<body>
+	<!--header section start -->
+	<div class="header_section header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+          <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+        </div>
+        <div class="col-sm-6">
+					<div class="menu-area">
+                    <nav class="navbar navbar-expand-lg ">
+                        <!-- <a class="navbar-brand" href="#">Menu</a> -->
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                               <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
+                               <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a></li>
+                               <li class="nav-item">
+                                <a class="nav-link" href="client.html">Client</a></li>
+                               <li class="#" href="#">
+      	                        <a class="nav-link" href="blog.html">Blog</a></li>
+                               <li class="nav-item" href="#">
+      	                        <a class="nav-link" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+				</div>
+				<div class="col-sm-4">
+            <ul class="top_button_section">
+               <li><a class="login-bt active" href="#">Login</a></li>
+               <li><a class="login-bt" href="#">Register</a></li>
+               <li class="search"><a href="#"><img src="images/search-icon.png" alt="#" /></a></li>
+            </ul>
+          </div>
+			</div>
+		</div>
+	</div>
+    <!--header section end -->
+    <!--blog section start --> 
+  <div class="blog_section layout_padding"> 
+    <div class="about_section_2 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="classified_text">ONE OF THE BEST <span style="color: #c6610f;">CLASSIFIED</span></div>
+          </div>  
+        </div>
+        <div class="row front">
+          <div class="col-md-2">
+            <div class="about_img"><img src="images/img-1.png"></div>
+          </div>
+          <div class="col-md-10">
+            <h1 class="fron_text"> FRONT END MULTICURRENCY</h1>
+            <p class="using_text">using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
           </div>
         </div>
-        <img class="portrait" src="https://ucfefe1c4636bd5f5440c6d48543.previews.dropboxusercontent.com/p/thumb/AA0mGVuQ5y59y7MjzIis_wvkBTcjTfOFYnGfWzWnxg8rphhfhm-fOv7aOAW1g6y-g2bWKx7NRBWn5Mn4AzMySt96oqcYNOA7ZAFeKwn-B0PUnSNpMCh_3mfUGVDJ-txEXGYEmjIQFL7re2xRqEC57Iy0-vmzFCONOyGxYfLeGoXIplIabC08T3Wlgfp5t2FXpdSdnENzeh-aZUPR9i51AAiP0yd60QEh5Os7b6GBlsI3dRjzkNREeb3H7IXUIvFyd6q8jNzdyLkkLFpP6IkATkS1-M7K5lM8W5nnBtlYf8OL39jCHUSvJHkyKiGvDa_c9vhdCOXXMGqPxe_SKhzrTXgnjlEVNy802em1oqPB30y-utOXISpWAutsOSo0T5pA23KPt-iiHBc-4ca2Ck6SaD07/p.jpeg?fv_content=true&size_mode=5" alt="Shihoon Yoon">
-      </div>
-      <div class="columns">
-        <div class="column column-one">
-          <div class="row experience">
-            <h3 class="row-title">경력</h3>
-            <div class="job">
-              <h4 class="job-date"><i>2017-현재</i></h4>
-              <div>주식회사 이*트</div>
-              <div>해외사업개발 팀장</div>
-              <ul class="job-description">
-                <li>수입/수출 업무</li>
-              </ul>
-            </div>
-            <div class="job">
-              <h4 class="job-date"><i>2016-2017</i></h4>
-              <div>(주)강**바이오텍</div>
-              <div>사업개발 팀원</div>
-              <ul class="job-description">
-                <li>Licensing-Out 업무</li>
-              </ul>
-            </div>
+        <div class="row front">
+          <div class="col-md-2">
+            <div class="about_img"><img src="images/img-1.png"></div>
           </div>
-          <div class="row education">
-            <h3 class="row-title">학력</h3>
-            <div class="school graduate">
-              <h4 class="graduate-date"><i>2011 - 2014</i></h4>
-              <div>Georgetown University</div>
-              <div>Health Administration, M.H.A.</div>
-              <div>경영(의료) 석사</div>
-            </div>
-            <div class="school college">
-              <h4 class="college-date"><i>2006-2010</i></h4>
-              <div>Virginia Commonwealth University</div>
-              <div>Biology, B.S.</div>
-              <div>생물 학사</div>
-            </div>
+          <div class="col-md-10">
+            <h1 class="fron_text"> FRONT END MULTICURRENCY</h1>
+            <p class="using_text">using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
           </div>
-        </div>    
-        <div class="column column-two">        
-          <div class="row my-interest">
-            <h3 class="row-title">관심분야</h3>
-            <h2 class="say interest">Front-end</h2>
-            <h3 class="say interest">JavaScript</h3>
-          </div>
-          <div class="row goal">
-            <h3 class="row-title">BOOTCAMP 목표</h3>
-            <h2 class="say goal">아이디어를 코딩으로!!</h2>
-            <h4 class="say goal">'Turning Ideas into Code'</h4>
-          </div>
-          <div class="row my-daily-life">
-            <h3 class="row-title">하루 일과</h3>
-            <img class="daily-life-donut" src="https://uc1c2b0245b86e79277a1899bbdc.previews.dropboxusercontent.com/p/thumb/AA3a_SxO5KuMQ2iOT593pEqxXiQIwLl7Piz6rT9MuoinkNnDnY1R8_4SmEJSG1j0-8YtOFGeAgv9ejqECcEU-iZac0V8IBemjbadPdVJeLFtjUpK_HyJA17AiUYECvLVCzerkujgevFGe3xHqFYoPfryO7CGX_du7Xyc63tvnryl4ftf6kwHm5vmE6DVpsfW8E89Aw_JKMIJ461Cm_Mn21G1AaxYXtkaE0ksly63FYZxdVbucoxL3sv_zOTUpIa6B-O8P5vbzdUB2VRAKqfRXWAyXK-vWx5VC8bp6wH8GaxZwBrbtUb13Gpn2vq3f-WxYgrHpMXirsy25dBy3_Qgn3ezXtqXKRdLEe6A7bpbU06-Jzu13p0vHeYCNhzCgGgSfDT8jw4uY1GeRTV1cvFbFyBG/p.png?fv_content=true&size_mode=5" alt="Daily Life"></div>
-          </div>
+          <div class="red_bt"><a href="#">Read More</a></div>
         </div>
       </div>
     </div>
-  </div>
+  </div>  
+  <!--blog section end -->    
+	<!--footer section start -->
+	<div class="footer_section layout_padding">
+		<div class="container">
+			<div class="row">
+			    <div class="col-sm-3">
+				    <div class="footer_contact">Contact Us</div>
+			    </div>
+			    <div class="col-sm-3">
+				    <div class="location_text"><img src="images/map-icon.png"><span style="padding-left: 10px;">Locations</span></div>
+			    </div>
+			    <div class="col-sm-3">
+			    	<div class="location_text"><img src="images/call-icon.png"><span style="padding-left: 10px;">Locations</span></div>
+			    </div>
+			    <div class="col-sm-3">
+			    	<div class="location_text"><img src="images/mail-icon.png"><span style="padding-left: 10px;">Locations</span></div>
+			    </div>
+		    </div>
+		    <div class="enput_bt">
+		    	<div class="row">
+		    		<div class="col-md-6">
+		    			<div class="input_main">
+                       <div class="container">
+                          <form action="/action_page.php">
+                            <div class="form-group">
+                              <input type="text" class="email-bt" placeholder="NAME" name="Name">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="email-bt" placeholder="EMAIL" name="Email">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="email-bt" placeholder="PHONE NUMBER" name="Email">
+                            </div>
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                  <textarea class="massage-bt" placeholder="MASSAGE" rows="5" id="comment" name="text"></textarea>
+                                </div>
+                            </form>
+                          </form>
+                       </div> 
+                       <div class="send_bt_main">
+                       	<div class="left">
+                       		<div class="send_bt"><a href="#">SEND</a></div>
+                       	</div>
+                       	<div class="right">
+                       		<div class="social_icon">
+                       			<ul>
+                       				<li><a href="#"><img src="images/fb-icon.png"></a></li>
+                       				<li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                       				<li><a href="#"><img src="images/in-icon.png"></a></li>
+                       				<li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                       			</ul>
+                       		</div>
+                       	</div>
+                       </div>
+                    </div>
+		    		</div>
+		    		<div class="col-md-6">
+		    			<div class="map_section">
+		                    <div class="row">
+			            <div class="col-sm-12">
+				            <div class="full map_section">
+                               <div id="map"></div>
+                            </div>
+			            </div>
+		            </div>
+	                 </div>
+		    			<h1 class="newsletter_text">Newsletter</h1>
+		    			<div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="ENTER YOUR MAIL" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                       <div class="input-group-append">
+                       <span class="input-group-text" id="basic-addon2">SUBSCRIBE</span>
+                       </div>
+                       </div>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="copyright_section">
+		    	<p class="copyright_text">Copyright 2019 All Right Reserved By.<a href="https://html.design"> Free  html Templates</p>
+		    </div>
+		</div>
+	</div>
+	<!--footer section end -->
+
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+         </script>	
+
+
+         <script>
+      // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+      // Australia.
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 11,
+          center: {lat: 40.645037, lng: -73.880224},
+          });
+
+        var image = 'images/location_point.png';
+          var beachMarker = new google.maps.Marker({
+             position: {lat: 40.645037, lng: -73.880224},
+             map: map,
+             icon: image
+          });
+        }
+        </script>
+        <!-- google map js -->
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+        <!-- end google map js -->
 </body>
 </html>
